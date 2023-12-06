@@ -9,7 +9,7 @@ import { IoMdSettings } from 'react-icons/io';
 import { useRouter } from 'next/router';
 
 function Header() {
-    const router =useRouter()
+    const router = useRouter();
     return (
         <div className="bg-white w-full border-b-[1px] px-5">
             <span className="max-w-[1200px] m-auto h-[124px] flex justify-between items-center">
@@ -18,7 +18,7 @@ function Header() {
                     alt=""
                     width={148}
                     height={44}
-                    onClick={() => router.push("/")}
+                    onClick={() => router.push('/')}
                     className={cn('lg:w-[148px] w-[148px] h-[48px]')}
                 />
                 <div className="lg:flex hidden rounded-full border h-[44px] px-5 items-center gap-2 min-w-[30%]">
