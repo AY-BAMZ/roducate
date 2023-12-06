@@ -19,9 +19,14 @@ function Header() {
                     width={148}
                     height={44}
                     onClick={() => router.push('/')}
-                    className={cn('lg:w-[148px] w-[148px] h-[48px] cursor-pointer')}
+                    className={cn(
+                        'lg:w-[148px] w-[148px] h-[48px] cursor-pointer'
+                    )}
                 />
-                <div className="lg:flex hidden rounded-full border h-[44px] px-5 items-center gap-2 min-w-[30%]" onClick={()=> router.push("/category")}>
+                <div
+                    className="lg:flex hidden rounded-full border h-[44px] px-5 items-center gap-2 min-w-[30%]"
+                    onClick={() => router.push('/category')}
+                >
                     <IoSearchOutline className="text-black-500 text-[24px]" />
                     <input
                         type="text"
