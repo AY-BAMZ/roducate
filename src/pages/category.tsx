@@ -1,12 +1,12 @@
 import Header from '@/widgets/header';
 import Footer from '@/widgets/footer';
-import Products from '@/widgets/home/Products';
+import Category from '@/widgets/category/Category';
 
 export default function Home() {
     return (
         <main className={`bg-brand-st-1`}>
             <Header />
-            <Products />
+            <Category />
             <Footer />
         </main>
     );
