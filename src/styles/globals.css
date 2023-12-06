@@ -19,13 +19,13 @@
 }
 
 .banner-style {
-    background-image: url('../assets/images/banner_bg.png');
+    background-image: url('https://res.cloudinary.com/dmixz7eur/image/upload/v1701880817/banner_bg_omepav.png');
     background-size: cover;
     background-position: center;
 }
 
 .banner-style-two {
-    background-image: url('../assets/images/banner_bg2.png');
+    background-image: url('https://res.cloudinary.com/dmixz7eur/image/upload/v1701880817/banner_bg2_x0z1kr.png');
     background-size: cover;
     background-position: center;
 }
