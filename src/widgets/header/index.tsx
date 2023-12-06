@@ -61,6 +61,27 @@ function Header() {
                     className={cn('lg:hidden flex')}
                 />
             </span>
+            <span className="flex lg:hidden gap-2 pb-6">
+                <div className="lg:hidden flex rounded-xl border h-[44px] px-3 items-center gap-2 min-w-[30%] w-full">
+                    <IoSearchOutline className="text-black-500 text-[24px]" />
+                    <input
+                        type="text"
+                        placeholder="Search something here"
+                        name=""
+                        id=""
+                        className="flex-grow border-none placeholder:text-black-500 bg-transparent"
+                    />
+                </div>
+                <div className="lg:hidden flex rounded-xl border h-[44px] px-5 items-center gap-2">
+                    <Image
+                        src={Filter}
+                        alt=""
+                        width={22}
+                        height={44}
+                        className={cn('object-cover')}
+                    />
+                </div>
+            </span>
         </div>
     );
 }

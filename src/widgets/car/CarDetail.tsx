@@ -78,7 +78,7 @@ function CarDetail() {
                         <div className="grid gap-4 grid-cols-3 mt-5">
                             {images.map((image, index) => (
                                 <span
-                                    className={cn('col-span-1 h-[124px]', {
+                                    className={cn('col-span-1 lg:h-[124px] h-[96px]', {
                                         'p-2 border border-primary-default rounded-xl':
                                             activeImage === image,
                                     })}
