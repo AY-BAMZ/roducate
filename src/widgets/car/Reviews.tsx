@@ -1,4 +1,7 @@
+import Image from 'next/image';
 import React from 'react';
+import User from '@/assets/images/Ceklist.svg';
+import { cn } from '@/lib';
 
 function Reviews() {
     return (
@@ -9,6 +12,16 @@ function Reviews() {
                     13
                 </span>
             </span>
+            <div className="flex">
+                <Image
+                    src={User}
+                    alt=""
+                    width={56}
+                    height={56}
+                    className={cn('')}
+                />
+                <span className="flex-grow"></span>
+            </div>
         </div>
     );
 }
